@@ -95,7 +95,7 @@ Frontend: http://localhost:5173
 Backend API Docs: http://localhost:8000/docs
 
 
-🧪 How It Works
+### 🧪 How It Works
 User submits logs via UI or API
 
 Logs are stored in backend memory
@@ -106,14 +106,16 @@ AI or fallback logic generates explanations
 
 Frontend displays logs, anomalies, and analysis
 
-⚠️ Limitations
+
+### ⚠️ Limitations
 Logs are stored in-memory (no database)
 
 AI explanation depends on API quota
 
 Manual log ingestion (auto ingestion can be added)
 
-🔮 Future Improvements
+
+### 🔮 Future Improvements
 Persistent storage (PostgreSQL / MongoDB)
 
 Automated log ingestion middleware
@@ -123,6 +125,9 @@ Vector embeddings + RAG
 Kubernetes deployment
 
 Authentication & RBAC
+
+
+
 
 👨‍💻 Author
 Vasanth Kandolu
