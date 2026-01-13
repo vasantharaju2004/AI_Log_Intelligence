@@ -87,7 +87,9 @@ ai_log_intelligence/
 git clone https://github.com/<your-username>/ai-log-intelligence.git
 cd ai-log-intelligence
 docker-compose up --build
-Access
+```
+
+### Access
 Frontend: http://localhost:5173
 
 Backend API Docs: http://localhost:8000/docs
