@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-01-09T10:31:00",
+  "level": "INFO",
+  "service": "api",
+  "message": "Request processed successfully"
+}
+
+{
+  "timestamp": "2026-01-09T10:32:00",
+  "level": "ERROR",
+  "service": "db",
+  "message": "Database connection failed"
+}
+{
+  "timestamp": "2026-01-09T10:33:00",
+  "level": "INFO",
+  "service": "cache",
+  "message": "Cache hit"
+}
