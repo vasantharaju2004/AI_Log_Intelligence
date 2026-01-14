@@ -33,17 +33,18 @@ Designed with reliability and extensibility in mind
 🐳 Fully containerized using Docker & Docker Compose
 
 🧠 Technologies Used
-Category	Tools
-Programming Language	Python, JavaScript
-Backend Framework	FastAPI
-Frontend Framework	React (Vite)
-Machine Learning	Scikit-learn (Isolation Forest)
-AI Integration	OpenAI API (optional, with fallback)
-Styling	Tailwind CSS
+
+Category	| Tools |
+Programming Language | Python, JavaScript|
+Backend Framework     |  FastAPI|
+Frontend Framework | React (Vite)|
+Machine Learning	|Scikit-learn (Isolation Forest)|
+AI Integration |	OpenAI API (optional, with fallback)|
 DevOps	Docker, Docker Compose
 API Testing	Postman
 
 🏗️ System Architecture
+
 User / Frontend UI
         ↓
 FastAPI Backend (Log Ingestion API)
@@ -57,6 +58,7 @@ AI / Rule-based Root Cause Explanation
 Frontend Dashboard Visualization
 
 📂 Project Structure
+
 AI_Log_Intelligence/
 ├── backend/
 │   ├── app/
@@ -79,24 +81,35 @@ AI_Log_Intelligence/
 🧪 How It Works
 
 Logs are submitted via the frontend or API
+
 Logs are validated and stored in backend memory
+
 Machine Learning model analyzes log patterns
+
 Anomalous logs are identified
+
 AI or fallback logic generates explanations
+
 Frontend displays logs, anomalies, and insights
 
 ⚠️ Limitations
 
 Logs are stored in memory (no persistent database)
+
 AI explanation depends on external API quota
+
 Log ingestion is manual (auto ingestion can be added)
 
 🔮 Future Enhancements
 
 Persistent storage (PostgreSQL / MongoDB)
+
 Automated backend log ingestion
+
 Vector embeddings & retrieval-based explanations
+
 Kubernetes-based deployment
+
 Authentication & access control
 
 ▶️ Run Locally (Docker)
