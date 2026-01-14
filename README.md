@@ -45,22 +45,18 @@ API Testing	Postman
 
 🏗️ System Architecture
 
-User / Frontend UI 
-
-        ->
+User / Frontend UI
+        ↓
 FastAPI Backend (Log Ingestion API)
-
-        ->
+        ↓
 In-memory Log Storage
-
-        ->
+        ↓
 ML Anomaly Detection (Isolation Forest)
-
-        ->
+        ↓
 AI / Rule-based Root Cause Explanation
-
-        ->
+        ↓
 Frontend Dashboard Visualization
+
 
 📂 Project Structure
 
